@@ -9,7 +9,7 @@ public class last_second_digit {
                 return num1%10;
             }
             if (num<=-10){
-                int num2=num/10;
+                int num2=(num/10)*-1;
                 return num2%-10;
             }
         }
