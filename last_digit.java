@@ -8,7 +8,8 @@ public class last_digit {
                 return num%10;
             }
             if (num<=-10){
-                return num%-10;
+                int num1=num*-1;
+                return num1%10;
             }
         }
         return num;
